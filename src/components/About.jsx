@@ -42,7 +42,7 @@ const AboutPage = () => {
   return (
     <div
       id="about"
-      className="bg-black text-white min-h-screen flex items-center"
+      className="bg-black text-white flex items-center min-h-[calc(100vh-64px)] mt-16"
     >
       <div className="max-w-5xl mx-auto px-8">
         {/* Left side with image */}

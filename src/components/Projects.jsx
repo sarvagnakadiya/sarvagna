@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="bg-gray-800 text-white min-h-screen flex items-center"
+      className="bg-gray-800 text-white min-h-[calc(100vh-64px)] flex items-center"
     >
       <div className="max-w-5xl mx-auto px-8">
         {/* Your projects content goes here */}
