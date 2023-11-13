@@ -4,6 +4,8 @@ import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 import AboutPage from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import Education from "./components/Education";
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
@@ -29,6 +31,8 @@ function App() {
           <AboutPage />
           <Projects />
           <Skills />
+          <Education />
+          <Footer />
         </ConnectKitProvider>
       </WagmiConfig>
     </>
