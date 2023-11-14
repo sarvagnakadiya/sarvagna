@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className="flex justify-center lg:justify-end">
           <a
-            href="https://www.buymeacoffee.com/yourusername"
+            href="https://www.buymeacoffee.com/sarvagna"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-teal-500 hover:bg-teal-600 text-gray-800 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"

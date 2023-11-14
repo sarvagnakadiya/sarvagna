@@ -20,7 +20,7 @@ export default function Navbar() {
   const [currentSection, setCurrentSection] = useState("");
 
   const handleScroll = () => {
-    const navbarHeight = 70; // Replace with your actual navbar height
+    const navbarHeight = 64; // Replace with your actual navbar height
     const scrollY = window.scrollY || window.pageYOffset;
 
     navigation.forEach((item) => {
@@ -81,7 +81,7 @@ export default function Navbar() {
                         to={item.href}
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-64}
                         duration={500}
                         className={classNames(
                           currentSection === item.href
@@ -111,7 +111,7 @@ export default function Navbar() {
                   to={item.href}
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={-64}
                   duration={500}
                   className={classNames(
                     currentSection === item.href
