@@ -1,8 +1,50 @@
 // components/Projects.jsx
 
-import React from "react";
+import React, { useState } from "react";
 
 const projectsData = [
+  {
+    id: 1,
+    title: "Project Title 1",
+    description: "Description of Project 1",
+    category: "DeFi",
+    githubLink: "https://github.com/yourusername/project1",
+  },
+  {
+    id: 2,
+    title: "Project Title 2",
+    description: "Description of Project 2",
+    category: "AI",
+    githubLink: "https://github.com/yourusername/project2",
+  },
+  {
+    id: 1,
+    title: "Project Title 1",
+    description: "Description of Project 1",
+    category: "DeFi",
+    githubLink: "https://github.com/yourusername/project1",
+  },
+  {
+    id: 2,
+    title: "Project Title 2",
+    description: "Description of Project 2",
+    category: "AI",
+    githubLink: "https://github.com/yourusername/project2",
+  },
+  {
+    id: 1,
+    title: "Project Title 1",
+    description: "Description of Project 1",
+    category: "DeFi",
+    githubLink: "https://github.com/yourusername/project1",
+  },
+  {
+    id: 2,
+    title: "Project Title 2",
+    description: "Description of Project 2",
+    category: "AI",
+    githubLink: "https://github.com/yourusername/project2",
+  },
   {
     id: 1,
     title: "Project Title 1",
@@ -49,6 +91,12 @@ const projectsData = [
 ];
 
 const Projects = () => {
+  const [showAllProjects, setShowAllProjects] = useState(false);
+
+  const visibleProjects = showAllProjects
+    ? projectsData
+    : projectsData.slice(0, 3);
+
   return (
     <div
       id="projects"
@@ -58,7 +106,7 @@ const Projects = () => {
         <h1 className="text-4xl font-bold mb-6">Projects</h1>
 
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 overflow-x-auto">
-          {projectsData.map((project) => (
+          {visibleProjects.map((project) => (
             <a
               key={project.id}
               href={project.githubLink}
@@ -76,6 +124,26 @@ const Projects = () => {
             </a>
           ))}
         </div>
+
+        {projectsData.length > 3 && (
+          <div className="mt-4">
+            {showAllProjects ? (
+              <button
+                className="text-blue-500 hover:underline"
+                onClick={() => setShowAllProjects(false)}
+              >
+                Hide
+              </button>
+            ) : (
+              <button
+                className="text-blue-500 hover:underline"
+                onClick={() => setShowAllProjects(true)}
+              >
+                Show All
+              </button>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
