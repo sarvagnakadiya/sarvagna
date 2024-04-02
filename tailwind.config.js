@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        custom9: "9deg",
+      },
+      margin: {
+        leftcustom: "10rem", // Adjust the value as needed
+      },
+    },
   },
   plugins: [],
 };

@@ -10,6 +10,7 @@ const navigation = [
   { name: "Projects", href: "projects", current: false },
   { name: "Skills", href: "skills", current: false },
   { name: "Education", href: "education", current: false },
+  { name: "Experience", href: "experience", current: false },
 ];
 
 function classNames(...classes) {
@@ -20,17 +21,17 @@ export default function Navbar() {
   const [currentSection, setCurrentSection] = useState("");
 
   const handleScroll = () => {
-    const navbarHeight = 64; // Replace with your actual navbar height
+    const navbarHeight = 65; // Replace with your actual navbar height
     const scrollY = window.scrollY || window.pageYOffset;
 
     navigation.forEach((item) => {
       const element = document.getElementById(item.href);
       if (element) {
         const rect = element.getBoundingClientRect();
-        const offset = rect.top - navbarHeight; // Adjusted for navbar height
-        console.log(
-          `Element ID: ${item.href}, Top: ${offset}, Bottom: ${rect.bottom}`
-        );
+        const offset = rect.top - navbarHeight;
+        // console.log(
+        //   `Element ID: ${item.href}, Top: ${offset}, Bottom: ${rect.bottom}`
+        // );
         if (offset <= 0 && rect.bottom > 0) {
           setCurrentSection(item.href);
         }

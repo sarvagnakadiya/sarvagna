@@ -1,0 +1,14 @@
+[
+  { "name": "Solidity", "proficiency": 70 },
+  { "name": "Rust", "proficiency": 70 },
+  { "name": "Javascript", "proficiency": 80 },
+  { "name": "Typescript", "proficiency": 90 },
+  { "name": "Python", "proficiency": 85 },
+  { "name": "flask APIs", "proficiency": 85 },
+  { "name": "React.js", "proficiency": 85 },
+  { "name": "Next.js", "proficiency": 85 },
+  { "name": "Vite.js", "proficiency": 85 },
+  { "name": "Node.js", "proficiency": 85 },
+  { "name": "Express APIs", "proficiency": 85 },
+  { "name": "Mongo DB", "proficiency": 85 }
+]

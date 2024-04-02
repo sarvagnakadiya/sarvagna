@@ -1,0 +1,38 @@
+{
+  "facebook": {
+    "icon": "icons8-facebook-480.png",
+    "url": "https://www.facebook.com/yourusername"
+  },
+  "github": {
+    "icon": "icons8-github-480.png",
+    "url": "https://github.com/yourusername"
+  },
+  "instagram": {
+    "icon": "icons8-instagram-480.png",
+    "url": "https://www.instagram.com/yourusername"
+  },
+  "linkedIn": {
+    "icon": "icons8-linkedin-480.png",
+    "url": "https://www.linkedin.com/in/yourusername"
+  },
+  "reddit": {
+    "icon": "icons8-reddit-480.png",
+    "url": "https://www.reddit.com/user/yourusername"
+  },
+  "stackOverflow": {
+    "icon": "icons8-stack-overflow-480.png",
+    "url": "https://stackoverflow.com/users/youruserid/yourusername"
+  },
+  "telegram": {
+    "icon": "icons8-telegram-app-480.png",
+    "url": "https://t.me/yourusername"
+  },
+  "twitter": {
+    "icon": "icons8-twitterx-480-2.png",
+    "url": "https://twitter.com/yourusername"
+  },
+  "discord": {
+    "icon": "icons8-discord-480.png",
+    "url": "https://discord.com/invite/yourusername"
+  }
+}

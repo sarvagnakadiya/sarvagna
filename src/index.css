@@ -8,6 +8,18 @@
     url("./fonts/san-francisco/SFNSText-RegularG2.otf") format("OpenType");
 }
 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
 /* Set the color and width of the scroll bar for WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 8px;

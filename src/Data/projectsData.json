@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "FluidPay",
+    "description": "FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses.FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses",
+    "category": "Blockchain",
+    "githubLink": "https://github.com/sarvagnakadiya/FluidPay",
+    "youtubeId": "R-_iqhDMD48"
+  },
+  {
+    "id": 2,
+    "title": "Uniswap-clone",
+    "description": "Uniswap-Clone is a project where I've successfully replicated and comprehensively grasped the functionality of Uniswap-V2. By cloning the contracts, interfaces, and SDK, subgraph, I've achieved a deep understanding of the platform's mechanics and how it facilitates decentralized token exchanges.",
+    "category": "Blockchain",
+    "githubLink": "https://github.com/yourusername/project2"
+  },
+  {
+    "id": 3,
+    "title": "Project Title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "category": "AI",
+    "githubLink": "https://github.com/yourusername/project2"
+  },
+  {
+    "id": 4,
+    "title": "Project Title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "category": "AI",
+    "githubLink": "https://github.com/yourusername/project2"
+  },
+  {
+    "id": 5,
+    "title": "Project Title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "category": "AI",
+    "githubLink": "https://github.com/yourusername/project2"
+  },
+  {
+    "id": 6,
+    "title": "Project Title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "category": "AI",
+    "githubLink": "https://github.com/yourusername/project2"
+  },
+  {
+    "id": 7,
+    "title": "Project Title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "category": "AI",
+    "githubLink": "https://github.com/yourusername/project2"
+  }
+]

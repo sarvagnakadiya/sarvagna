@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Lamprostech PVT LTD",
+    "company": "Tech Co.",
+    "location": "City, Country",
+    "startDate": "Jan 2020",
+    "endDate": "Present",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit."
+  },
+  {
+    "id": 1,
+    "title": "Full Stack Developer",
+    "company": "Tech Co.",
+    "location": "City, Country",
+    "startDate": "Jan 2020",
+    "endDate": "Present",
+    "description": "education features and improved overall system performance."
+  }
+]
