@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Lamprostech PVT LTD",
-    "company": "Tech Co.",
-    "location": "City, Country",
-    "startDate": "Jan 2020",
+    "title": "Blockchain Developer",
+    "company": "Lamprostech PVT LTD",
+    "location": "Ahmedabad, gujarat",
+    "startDate": "Jul 2021",
     "endDate": "Present",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit."
+    "description": "Did 6 months internship as Blockchain developer intern and right now doing full time blockchain developer and Smart contract developer, all other skills which I mentioned I learned during this time, attended numerous offline/online hackathons, Won few of em too"
   },
   {
     "id": 1,
-    "title": "Full Stack Developer",
-    "company": "Tech Co.",
-    "location": "City, Country",
-    "startDate": "Jan 2020",
-    "endDate": "Present",
-    "description": "education features and improved overall system performance."
+    "title": "React Native Intern",
+    "company": "codelytical ",
+    "location": "Ahmedabad, gujarat",
+    "startDate": "Jan 2021",
+    "endDate": "Apr 2021",
+    "description": "worked as an intern at codelytical where I tried to build a Ecommerce mobile application, there I learned React Native, front-end and Redux."
   }
 ]
