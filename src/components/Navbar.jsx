@@ -98,8 +98,14 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <CustomConnectButton />
-                {/* Profile dropdown */}
+                <a
+                  href="https://sarvagna.vercel.app/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-teal-500 hover:bg-teal-600 text-gray-800 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
+                >
+                  View Resume
+                </a>
               </div>
             </div>
           </div>
