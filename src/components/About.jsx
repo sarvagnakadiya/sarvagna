@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import profilePicture1 from "../assets/mimojis/1.png";
 import profilePicture2 from "../assets/mimojis/2.png";
 import profilePicture3 from "../assets/mimojis/4.png";
@@ -12,10 +12,11 @@ import github from "../assets/socials/icons8-github-480.png";
 import instagram from "../assets/socials/icons8-instagram-480.png";
 import linkedIn from "../assets/socials/icons8-linkedin-480.png";
 import reddit from "../assets/socials/icons8-reddit-480.png";
-import stackOverflow from "../assets/socials/icons8-stack-overflow-480.png";
+// import stackOverflow from "../assets/socials/icons8-stack-overflow-480.png";
 import telegram from "../assets/socials/icons8-telegram-app-480.png";
 import twitter from "../assets/socials/icons8-twitterx-480-2.png";
 import discord from "../assets/socials/icons8-discord-480.png";
+import farcaster from "../assets/socials/farcaster.png";
 // import socialLinks from "../data/socialLinks.json";
 
 const profilePictures = [
@@ -42,6 +43,10 @@ const profilePictures = [
 // };
 
 const socialLinks = {
+  farcaster: {
+    icon: farcaster,
+    url: "https://warpcast.com/0xdab",
+  },
   facebook: {
     icon: facebook,
     url: "https://www.facebook.com/sarvagnakadiya",
@@ -62,10 +67,7 @@ const socialLinks = {
     icon: reddit,
     url: "https://www.reddit.com/user/sarvagnakadiya",
   },
-  stackOverflow: {
-    icon: stackOverflow,
-    url: "https://stackoverflow.com/users/21518106/sarvagna",
-  },
+
   telegram: {
     icon: telegram,
     url: "https://t.me/squirtle_snap",

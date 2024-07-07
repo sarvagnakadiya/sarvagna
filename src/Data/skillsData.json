@@ -1,5 +1,8 @@
 [
   { "name": "Solidity", "proficiency": 70 },
+  { "name": "Defi", "proficiency": 70 },
+  { "name": "DEX", "proficiency": 70 },
+  { "name": "NFTs", "proficiency": 70 },
   { "name": "Rust", "proficiency": 70 },
   { "name": "Javascript", "proficiency": 80 },
   { "name": "Typescript", "proficiency": 90 },
@@ -10,5 +13,7 @@
   { "name": "Vite.js", "proficiency": 85 },
   { "name": "Node.js", "proficiency": 85 },
   { "name": "Express APIs", "proficiency": 85 },
-  { "name": "Mongo DB", "proficiency": 85 }
+  { "name": "Mongo DB", "proficiency": 85 },
+  { "name": "Foundry", "proficiency": 85 },
+  { "name": "Hardhat", "proficiency": 85 }
 ]

@@ -1,5 +1,4 @@
 // components/Skills.jsx
-import React from "react";
 import skillsData from "../Data/skillsData.json";
 
 const Skills = () => {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import projectsData from "../Data/projectsData.json";
 import ProjectPopup from "./ProjectPopup";
 
@@ -17,6 +17,14 @@ const Projects = () => {
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
+
+  useEffect(() => {
+    if (selectedProject) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [selectedProject]);
 
   return (
     <div

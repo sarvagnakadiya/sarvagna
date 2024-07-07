@@ -2,51 +2,119 @@
   {
     "id": 1,
     "title": "FluidPay",
-    "description": "FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses.FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses",
-    "category": "Blockchain",
+    "description": "Fluidpay is a superfluid protocol-powered pay-as-you-go project where platforms can register on the blockchain and obtain unique QR codes for transactions. When someone scans the QR code, they can effortlessly start or end a payment stream. This innovative model ensures users only pay for the time they have used the service, while platforms are freed from the hassle of tracking usage time, making payments seamless and efficient.(It was Initially developed at ETHIndia)",
+    "category": "Defi",
     "githubLink": "https://github.com/sarvagnakadiya/FluidPay",
+    "projectLink": "https://devfolio.co/projects/fluidpay-d48e",
+    "livelink": "https://fluid-pay.vercel.app/",
     "youtubeId": "R-_iqhDMD48"
   },
   {
     "id": 2,
     "title": "Uniswap-clone",
-    "description": "Uniswap-Clone is a project where I've successfully replicated and comprehensively grasped the functionality of Uniswap-V2. By cloning the contracts, interfaces, and SDK, subgraph, I've achieved a deep understanding of the platform's mechanics and how it facilitates decentralized token exchanges.",
-    "category": "Blockchain",
-    "githubLink": "https://github.com/yourusername/project2"
+    "description": "I have worked on creating a Uniswap clone, where I gained a deep understanding of both V2 and V3 contracts. I successfully deployed these contracts and the associated subgraphs, and I connected the contracts with the interface. Through this project, I also mastered many DeFi concepts, AMM, Concentrated liquidity(CLAMM) various Solidity coding standards, front-end coding standards, and was introduced to industry-level code. Also researched about MEV bot.",
+    "category": "Defi",
+    "livelink": "https://www.udonswap.org/",
+    "githubLink": "https://github.com/UdonSwap"
   },
   {
     "id": 3,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
-    "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
+    "title": "BasedJack",
+    "description": "BasedJack is a fun and engaging blackjack game integrated into Farcaster and Warpcast, eliminating boredom by bringing casino excitement right to your feed. It features Nouns-themed gameplay, leaderboards to track your win streaks and achievements, and seamless in-app play. Through this project, I learned a great deal about Next.js, created numerous APIs, game logic, and art, and gained a strong understanding of Farcaster frames. With BasedJack, you can enjoy a seamless and social gaming experience without ever leaving the app.",
+    "category": "Social",
+    "youtubeId": "SX4QaOGukWg",
+    "projectLink": "https://devfolio.co/projects/basedjack-08a4",
+    "livelink": "https://warpcast.com/0xdab/0xf2ecf6ec",
+    "githubLink": "https://github.com/BasedJack-game/basedjack-app"
   },
   {
     "id": 4,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "title": "ChainQ",
+    "description": "ChainQ simplifies accessing blockchain data by using AI-driven Natural Language Processing, making it easy for entrepreneurs, marketers, and researchers to extract pertinent information without deep technical knowledge. Through this project, I learned about AI, Python, Node API, SQLite, and utilized various question-answering AI models, enhancing my skills in these areas while democratizing blockchain technology for broader use. Deployed for multiple blockchains (scroll, tron, sepolia)",
     "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
+    "githubLink": "https://github.com/sarvagnakadiya/chainQ",
+    "livelink": "https://chain-q.vercel.app/",
+    "youtubeId": "XqwyY2zOxbs",
+    "projectLink": "https://ethglobal.com/showcase/chainq-sz1tx"
   },
   {
     "id": 5,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
-    "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
+    "title": "Superfluid developer dashboard",
+    "description": "This project helps superfluid developers to run the superfluid contracts on their local machine (with hardhat) and helps them easily create/update/delete/distribute token stream, also added feature is your local transaction will be recorded and with one command you can re run that again making the development and testing so much easy for superfluid developers (also received 1St price🏆 for this)",
+    "category": "Dev-tooling",
+    "githubLink": "https://github.com/sarvagnakadiya/superfluid-developer-dashboard",
+    "youtubeId": "0tAFyUwjXvY",
+    "projectLink": "https://devfolio.co/projects/superfluiddeveloperconsole-485f"
   },
   {
     "id": 6,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
-    "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
+    "title": "Crosschain governance",
+    "description": "I worked on a cross-chain governance platform that empowers users to participate in DAO proposal voting seamlessly across Ethereum Layer 1 (L1) and Polygon Proof-of-Stake (POS) networks, utilizing Polygon's ZK-Ethereum Virtual Machine (ZKEVM). This platform provides an efficient and gas-saving method for token holders and NFT owners to exercise their voting rights. Through this project, I learned about cross-chain data sending/receiving, bridges, governance, and DAOs.",
+    "category": "Bridges - DAOs",
+    "githubLink": "https://github.com/sarvagnakadiya/zkEVM-bridge",
+    "youtubeId": "pnNJP86XtEM"
   },
   {
     "id": 7,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
+    "title": "Youtube transcript querying",
+    "description": "During a one-day hackathon at IIT-Gandhinagar, I developed youtube Video Transcript Querying, a project enabling direct Q&A from video content via URL input. This innovative solution allows users to extract insights effortlessly from video transcripts. Through this project, I gained hands-on experience in fine-tuning models, working with OpenAI, and integrating third-party AI models to enhance video content accessibility and usability.",
     "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
+    "githubLink": "https://github.com/yourusername/project2",
+    "youtubeId": "v-FjuuFIfA8"
+  },
+  {
+    "id": 8,
+    "title": "Embark",
+    "description": "Embark was created at ETHIndia hackathon, it enables users/ DAO delegates to do meetings and can share knowledge or take office hours and all the meetings with the consent gets recorded so the office hours can be watched by new WEB3 users and delegater and host meeting process can be hasslefree, also openAi was integrated to do some QnA to the Docs",
+    "category": "Infra",
+    "githubLink": "https://github.com/Deepak973/embark",
+    "youtubeId": "ygqWxWD5BL8",
+    "projectLink": "https://devfolio.co/projects/embark-bee2"
+  },
+  {
+    "id": 9,
+    "title": "ChoraClub",
+    "description": "Choraclub is a polished version of embark and with added features, it uses EAS to attest and give proof to the delegates and users about the meeting so the DAOs can reward them if they want, through out the project I learnt about Attestation service, also added farcaster frames to delegate votes, (my part was only about giving attestation, contract related things, and creating frames, also helped creating database) with this I also learnt about merkle tree, upgradable contracts, also made a research on which erc 20/721/1155 is how much gas efficient for giving meeting proof.",
+    "category": "Infra",
+    "githubLink": "https://github.com/Deepak973/embark",
+    "livelink": "https://chora.club"
+  },
+  {
+    "id": 10,
+    "title": "Mode domains",
+    "description": "Mode Domains aimed to create an ENS clone and was submitted for a hackathon. I developed scripts to deploy and interact directly with the smart contract. During this project, I learned about contract migration, as the submitted version had a fatal bug despite over 8,000 domains already being minted. I deployed the subgraph on Goldsky and created a Discord bot for the community with script-gated joining rules. Additionally, I developed a multisig wallet for the contract owner with a frontend.",
+    "category": "Web3",
+    "githubLink": "https://github.com/sarvagnakadiya/mode-domains-repo"
+  },
+  {
+    "id": 11,
+    "title": "Provylens",
+    "description": "ProvyLens is a blockchain-based supply chain logistics project securing end-to-end tracking and management. It aims to enhance transparency, ensure product authenticity, and facilitate secure data sharing among supply chain stakeholders. The system will provide real-time visibility into product movement, improve efficiency, and increase trust and accountability throughout the supply chain, utilizing decentralized, tamper-proof technology and smart contracts to automate operations and reduce costs.",
+    "category": "Web3",
+    "livelink": "https://provy-lens-testnet.vercel.app/",
+    "youtubeId": "9HAmEmGmM7o",
+    "projectLink": "https://ethglobal.com/showcase/provylens-58q4z",
+    "githubLink": "https://github.com/Deepak973/Provylens"
+  },
+  {
+    "id": 12,
+    "title": "NFT Marketplace",
+    "description": "I created this NFT MarketPlace where users can do all those basic things which a NFT marketplace provides, also the NFT contract was giving a randomly generated SVG image and that was able to mint from the marketplace.",
+    "category": "NFT",
+    "githubLink": "https://github.com/sarvagnakadiya/nftmarketplace"
+  },
+  {
+    "id": 13,
+    "title": "Food delivery App",
+    "description": "I tried to create this Food delivery app on react native as university internship where I learnt about react native, expo, redux, mobile designing.",
+    "category": "React Native",
+    "githubLink": "https://github.com/sarvagnakadiya/FoodDeliveryApp"
+  },
+  {
+    "id": 14,
+    "title": "IDA - Instant distribution agreement",
+    "description": "IDA is a superfluid based project where user can pay to more than one users simultamnmeously and in user defined percentage and that too in form of money stream",
+    "category": "Web3",
+    "githubLink": "https://github.com/Jaydip-lamprostech/superfluid-instant-distribution-agreement"
   }
 ]
