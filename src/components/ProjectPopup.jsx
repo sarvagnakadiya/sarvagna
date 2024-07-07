@@ -40,17 +40,17 @@ const ProjectPopup = ({ project, onClose }) => {
   }, [onClose]);
 
   return (
-    <div className="fixed top-0 left-0 z-50 w-full h-full bg-black  bg-opacity-50 flex justify-center items-center">
+    <div className="fixed top-0 left-0 z-50 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
       <div
         ref={popupRef}
-        className="bg-opacity-80 rounded-lg shadow-xl overflow-hidden mt-16 backdrop-blur-lg border border-solid border-1 "
+        className="bg-opacity-80 rounded-lg shadow-xl overflow-hidden mt-16 backdrop-blur-lg border border-solid border-1 relative"
         style={{
           width: popupSize.width,
           height: popupSize.height,
         }}
       >
         <div
-          className="p-8 overflow-y-auto"
+          className="p-8 h-full overflow-y-auto pb-20"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           <div className="flex justify-end">
@@ -90,7 +90,7 @@ const ProjectPopup = ({ project, onClose }) => {
           )}
         </div>
         <div className="absolute bottom-0 left-0 right-0 p-4 bg-opacity-80 backdrop-blur-lg">
-          <div className="flex justify-between w-full gap-2">
+          <div className="flex flex-wrap justify-between w-full gap-2">
             {project.githubLink && (
               <a
                 href={project.githubLink}
