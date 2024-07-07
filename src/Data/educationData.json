@@ -5,9 +5,9 @@
     "courceType": "Masters of Engineering (ME)",
     "institution": "Graduate School of Engineering and Technology GTU",
     "location": "Chandkheda, Ahmedabad",
-    "startDate": "Aug 2023",
-    "endDate": "Present",
-    "grade": "7.98 CGPA"
+    "startDate": "Aug 2022",
+    "endDate": "May 2024",
+    "grade": "8.18/10.00 CGPA"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "location": "Sola, Ahmedabad",
     "startDate": "Aug 2019",
     "endDate": "May 2022",
-    "grade": "8.23 CGPA"
+    "grade": "8.23/10.00 CGPA"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "location": "Sola, Ahmedabad",
     "startDate": "Aug 2016",
     "endDate": "April 2019",
-    "grade": "8.19 CGPA"
+    "grade": "8.19/10.00 CGPA"
   }
 ]
