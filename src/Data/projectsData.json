@@ -116,5 +116,13 @@
     "description": "IDA is a superfluid based project where user can pay to more than one users simultamnmeously and in user defined percentage and that too in form of money stream",
     "category": "Web3",
     "githubLink": "https://github.com/Jaydip-lamprostech/superfluid-instant-distribution-agreement"
+  },
+  {
+    "id": 15,
+    "title": "QuickCopy Extension",
+    "description": "Just an Extesion to copy text quickly like your EOA or some texts which you want to keep it hands while surfing",
+    "category": "Web",
+    "githubLink": "https://github.com/sarvagnakadiya/QuickCopy-extension",
+    "youtubeId": "BOOpX5MJGxc"
   }
 ]
