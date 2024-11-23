@@ -127,10 +127,12 @@
   },
   {
     "id": 16,
-    "title": "Gasless USDC transfers",
+    "title": "CirclePay",
     "description": "Send USDC without having ETH or without having gas tokens, let the receiver or someone else to pay for the transfer!",
     "category": "Web3",
-    "githubLink": "https://github.com/sarvagnakadiya/gasless-usdc",
+    "githubLink": "https://github.com/sarvagnakadiya/circlePay",
+    "projectLink":"https://ethglobal.com/showcase/circlepay-fg5v7",
+    "livelink": "https://circlepay.vercel.app/",
     "youtubeId": "3nj3b_padzE"
   }
 ]
