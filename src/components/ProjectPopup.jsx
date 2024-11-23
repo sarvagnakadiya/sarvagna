@@ -72,7 +72,9 @@ const ProjectPopup = ({ project, onClose }) => {
             </button>
           </div>
 
-          <h1 className="text-xl font-semibold mb-2">{project.title}</h1>
+          <h1 className="text-xl font-semibold mb-2 text-white">
+            {project.title}
+          </h1>
           <div className="text-lg text-gray-400 mb-2">{project.category}</div>
           <p className="text-lg text-gray-300 overflow-hidden">
             {project.description}

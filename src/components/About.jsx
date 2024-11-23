@@ -12,12 +12,10 @@ import github from "../assets/socials/icons8-github-480.png";
 import instagram from "../assets/socials/icons8-instagram-480.png";
 import linkedIn from "../assets/socials/icons8-linkedin-480.png";
 import reddit from "../assets/socials/icons8-reddit-480.png";
-// import stackOverflow from "../assets/socials/icons8-stack-overflow-480.png";
 import telegram from "../assets/socials/icons8-telegram-app-480.png";
 import twitter from "../assets/socials/icons8-twitterx-480-2.png";
 import discord from "../assets/socials/icons8-discord-480.png";
 import farcaster from "../assets/socials/farcaster.png";
-// import socialLinks from "../data/socialLinks.json";
 
 const profilePictures = [
   profilePicture1,
@@ -29,18 +27,6 @@ const profilePictures = [
   profilePicture7,
   profilePicture8,
 ];
-
-// const socialIcons = {
-//   facebook,
-//   github,
-//   instagram,
-//   linkedIn,
-//   reddit,
-//   stackOverflow,
-//   telegram,
-//   twitter,
-//   discord,
-// };
 
 const socialLinks = {
   farcaster: {
@@ -67,7 +53,6 @@ const socialLinks = {
     icon: reddit,
     url: "https://www.reddit.com/user/sarvagnakadiya",
   },
-
   telegram: {
     icon: telegram,
     url: "https://t.me/squirtle_snap",
@@ -84,65 +69,77 @@ const socialLinks = {
 
 const AboutPage = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  //   console.log(socialLinks);
 
   const handleRedirect = (url) => {
     window.open(url, "_blank");
   };
+
   useEffect(() => {
     const intervalId = setInterval(() => {
-      // Update the image index in a cyclic manner
       setCurrentImageIndex(
         (prevIndex) => (prevIndex + 1) % profilePictures.length
       );
-    }, 5000); // Change the interval to 5000ms (5 seconds)
+    }, 5000);
 
     return () => {
-      // Clear the interval when the component unmounts
       clearInterval(intervalId);
     };
-  }, []); // Empty dependency array ensures the effect runs only once on mount
+  }, []);
 
   return (
-    <div
-      id="about"
-      className="bg-black text-white flex items-center min-h-screen py-16"
-    >
-      <div className="max-w-5xl mx-auto px-4 sm:px-8 w-full">
-        {/* Left side with image */}
-        <div className="mb-4">
-          <img
-            src={profilePictures[currentImageIndex]}
-            alt="Profile"
-            className="h-44 w-44 mr-4 transition-opacity duration-1000 hover:opacity-100"
-          />
-        </div>
+    <>
+      {/* Fixed background elements */}
+      <div className="fixed inset-0 bg-black -z-20" />
+      <div className="fixed inset-0 bg-gradient-to-br from-black-900/20 via-black to-blue-900/20 -z-10" />
 
-        {/* Right side with text */}
-        <div className="text-left mb-4 px-auto">
-          <p className="text-lg mb-2">I'm Sarvagna Kadiya</p>
-          <p className="text-gray-400">
-            Hello, I'm Sarvagna Kadiya, a passionate full stack blockchain
-            developer. I specialize in creating decentralized applications and
-            smart contracts. With expertise in both front-end and back-end
-            technologies, I bring innovative solutions to the world of
-            blockchain development.
-          </p>
-        </div>
+      {/* Animated gradient orbs */}
+      <div className="fixed top-1/3 -right-48 w-96 h-96 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse -z-10" />
+      <div className="fixed bottom-1/4 -left-24 w-72 h-72 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse -z-10" />
 
-        {/* Social icons */}
-        <div className="flex justify-center sm:justify-start items-center mt-4">
-          {Object.entries(socialLinks).map(([platform, { icon, url }]) => (
-            <button
-              key={platform}
-              className="w-7 h-7 bg-center bg-cover mr-2 transform transition-transform hover:rotate-custom9"
-              style={{ backgroundImage: `url(${icon})` }}
-              onClick={() => handleRedirect(url)}
-            ></button>
-          ))}
+      <div id="about" className="relative min-h-screen py-16 flex items-center">
+        <div className="max-w-5xl mx-auto px-4 sm:px-8 w-full">
+          {/* Profile Image with animation */}
+          <div className="mb-8 relative group">
+            <img
+              src={profilePictures[currentImageIndex]}
+              alt="Profile"
+              className="relative h-44 w-44 rounded-full transition-all duration-700 group-hover:scale-105"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="text-left mb-8">
+            <h1 className="text-2xl font-bold mb-4 bg-gradient-to-r from-red-100 to-blue-400 bg-clip-text text-transparent">
+              I'm Sarvagna Kadiya
+            </h1>
+            <p className="text-gray-300 text-lg leading-relaxed">
+              Hello, I'm Sarvagna Kadiya, a passionate full stack blockchain
+              developer. I specialize in creating decentralized applications and
+              smart contracts. With expertise in both front-end and back-end
+              technologies, I bring innovative solutions to the world of
+              blockchain development.
+            </p>
+          </div>
+
+          {/* Social Links */}
+          <div className="flex flex-wrap justify-center sm:justify-start items-center gap-2">
+            {Object.entries(socialLinks).map(([platform, { icon, url }]) => (
+              <button
+                key={platform}
+                onClick={() => handleRedirect(url)}
+                className="group relative"
+              >
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-0 group-hover:opacity-50 blur transition duration-300" />
+                <div
+                  className="relative w-8 h-8 bg-center bg-cover transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6"
+                  style={{ backgroundImage: `url(${icon})` }}
+                />
+              </button>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
