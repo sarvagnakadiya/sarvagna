@@ -27,7 +27,7 @@ const Education = () => {
                   </div>
                 </div>
                 <div className="ml-6">
-                  <h2 className="text-lg font-semibold">
+                  <h2 className="text-lg font-semibold text-white">
                     {education.institution}
                   </h2>
                   <p className="text-gray-400 text-sm mb-2">
