@@ -104,7 +104,7 @@ export default function Navbar() {
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <a
-                    href="https://sarvagna.vercel.app/resume.pdf"
+                    href="https://sarvagna.sqrtlabs.com/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="relative group overflow-hidden rounded-full"
