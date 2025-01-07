@@ -1,12 +1,21 @@
 [
   {
     "id": 1,
+    "title": "Full stack Developer",
+    "company": "Coinvise",
+    "location": "Ahmedabad, gujarat",
+    "startDate": "Dec 2024",
+    "endDate": "Present",
+    "description": "At Coinvise, my primary responsibility is developing an AI agent and an AI framework SDK. This AI agent is equipped with multiple tools, enabling functionalities such as token deployment and listing, NFT creation, campaign management, Web3 interaction, and more. Additionally, the framework supports the integration of custom tools to cater to enterprise-specific requirements."
+  },
+  {
+    "id": 1,
     "title": "Blockchain Developer",
     "company": "Lamprostech PVT LTD",
     "location": "Ahmedabad, gujarat",
     "startDate": "Jul 2022",
-    "endDate": "Present",
-    "description": "Currently a full-time Blockchain Developer and Smart Contract Developer. During this time, I have learned various skills related to blockchain development, attended numerous offline and online hackathons, and won a few of them. Additionally, I am working on multiple innovative products."
+    "endDate": "Nov 2024",
+    "description": "At Lamprostech, I worked as a Blockchain and Smart Contract Developer, gaining hands-on experience in building decentralized solutions. I took part in several hackathons (both online and offline), won a few, and worked on some exciting and innovative blockchain projects. My role involved designing, testing, and deploying secure smart contracts while staying updated on the latest trends in the blockchain space."
   },
   {
     "id": 1,

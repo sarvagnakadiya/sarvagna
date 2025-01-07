@@ -14,6 +14,7 @@ const Education = () => {
       >
         <div className="max-w-5xl mx-auto px-4 sm:px-8 py-12">
           <h1 className="text-4xl font-bold mb-6 text-white">Education</h1>
+          <p className="text-lg mb-6 text-gray-400">If it matters:</p>
 
           <div className="relative">
             {educationData.map((education) => (

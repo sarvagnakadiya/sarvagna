@@ -81,7 +81,7 @@ export default function Navbar() {
                           offset={-64}
                           duration={500}
                           className={classNames(
-                            "relative rounded-md px-3 py-2 text-base font-medium transition-all duration-300 ease-in-out",
+                            "relative rounded-md px-3 py-2 text-base font-medium transition-all duration-300 ease-in-out cursor-pointer",
                             currentSection === item.href
                               ? "text-white"
                               : "text-gray-300 hover:text-white"
@@ -119,7 +119,7 @@ export default function Navbar() {
             flex items-center gap-2 overflow-hidden group"
                     >
                       <span className="text-cyan-500">&gt;</span>
-                      View Resume
+                      📄
                       <span className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
                     </div>
                   </a>

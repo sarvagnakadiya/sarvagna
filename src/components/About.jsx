@@ -31,11 +31,11 @@ const profilePictures = [
 const socialLinks = {
   farcaster: {
     icon: farcaster,
-    url: "https://warpcast.com/0xdab",
+    url: "https://warpcast.com/sarvagna",
   },
-  facebook: {
-    icon: facebook,
-    url: "https://www.facebook.com/sarvagnakadiya",
+  twitter: {
+    icon: twitter,
+    url: "https://twitter.com/sarvagnakadiya",
   },
   github: {
     icon: github,
@@ -44,6 +44,10 @@ const socialLinks = {
   instagram: {
     icon: instagram,
     url: "https://www.instagram.com/sarvagna13",
+  },
+  facebook: {
+    icon: facebook,
+    url: "https://www.facebook.com/sarvagnakadiya",
   },
   linkedIn: {
     icon: linkedIn,
@@ -56,10 +60,6 @@ const socialLinks = {
   telegram: {
     icon: telegram,
     url: "https://t.me/squirtle_snap",
-  },
-  twitter: {
-    icon: twitter,
-    url: "https://twitter.com/sarvagnakadiya",
   },
   discord: {
     icon: discord,
@@ -103,21 +103,35 @@ const AboutPage = () => {
             <img
               src={profilePictures[currentImageIndex]}
               alt="Profile"
-              className="relative h-44 w-44 rounded-full transition-all duration-700 group-hover:scale-105"
+              className="relative h-44 w-44 transition-all duration-600 group-hover:scale-105"
             />
           </div>
 
           {/* Text Content */}
           <div className="text-left mb-8">
             <h1 className="text-2xl font-bold mb-4 bg-gradient-to-r from-red-100 to-blue-400 bg-clip-text text-transparent">
-              I'm Sarvagna Kadiya
+              hullo!
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Hello, I'm Sarvagna Kadiya, a passionate full stack blockchain
-              developer. I specialize in creating decentralized applications and
-              smart contracts. With expertise in both front-end and back-end
-              technologies, I bring innovative solutions to the world of
-              blockchain development.
+              gm, I'm Sarvagna Kadiya;{" "}
+              <span className="font-black text-xl">buildor</span>,{" "}
+              <span className="font-black text-xl">developor</span>, and an
+              aspiring web3 <span className="font-black text-xl">foundor </span>
+              who totally believes
+              <br /> their product will change the world{" "}
+              <span className="italic text-gray-400">
+                (or at least make a dent) (eventually)
+              </span>
+              .
+              <br />
+              Defi, AI, payments, crypto—yep; Cars, F1—
+              <span className="text-lg">yep</span>-
+              <span className="text-xl">yep</span>-
+              <span className="text-2xl">yep</span>
+              <br /> I’m your go-to yap buddy for all things buzzword-worthy.
+              <br />
+              Awkward on socials, extrovert IRL{" "}
+              <span className="italic text-gray-400">(yeah, it’s a vibe)</span>
             </p>
           </div>
 
