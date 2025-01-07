@@ -5,15 +5,13 @@ const Skills = () => {
   return (
     <>
       <div className="fixed inset-0 bg-black -z-20" />
-      <div className="fixed inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20 -z-10" />
+      <div className="fixed inset-0 bg-gradient-to-br from-black via-black to-blue-900/25 -z-10" />
       <div
         id="skills"
         className="relative min-h-screen py-16 flex items-center"
       >
         <div className="max-w-5xl mx-auto px-4 sm:px-8 py-12">
-          <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Skills
-          </h1>
+          <h1 className="text-4xl font-bold mb-6 text-white">Skills</h1>
           <p className="text-lg text-white">
             Here are some of my awesome skills.
           </p>

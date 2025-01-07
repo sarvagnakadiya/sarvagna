@@ -29,17 +29,9 @@ const Projects = () => {
   return (
     <div id="projects" className="relative min-h-screen">
       {/* Fixed background gradients */}
-      <div className="fixed inset-0 bg-black -z-20" />
-      <div className="fixed inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20 -z-10" />
-
-      {/* Animated gradient orbs */}
-      <div className="fixed top-1/3 -right-48 w-96 h-96 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse -z-10" />
-      <div className="fixed bottom-1/4 -left-24 w-72 h-72 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse -z-10" />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-8 py-12 relative">
-        <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-          Projects
-        </h1>
+        <h1 className="text-4xl font-bold mb-6 text-white">Projects</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData
@@ -54,7 +46,7 @@ const Projects = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 opacity-95" />
 
                   {/* Hover gradient effect */}
-                  <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-gradient-to-tr from-blue-700/25 to-black-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                   {/* Content */}
                   <div className="relative p-6 h-full flex flex-col">
@@ -80,7 +72,7 @@ const Projects = () => {
           onClick={toggleShowAll}
           className="relative group overflow-hidden rounded-lg mx-auto mt-8 block"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 opacity-75 transition-transform duration-300 group-hover:scale-105" />
+          <div className="absolute inset-0 bg-blue-900 opacity-75 transition-transform duration-300 group-hover:scale-105" />
           <span className="relative px-6 py-2 block bg-black bg-opacity-90 text-white font-medium transition-all duration-300 group-hover:bg-opacity-50">
             {showAll ? "Show Less" : "Show All"}
           </span>

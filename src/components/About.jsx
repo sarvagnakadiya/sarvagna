@@ -89,12 +89,12 @@ const AboutPage = () => {
   return (
     <>
       {/* Fixed background elements */}
-      <div className="fixed inset-0 bg-black -z-20" />
-      <div className="fixed inset-0 bg-gradient-to-br from-black-900/20 via-black to-blue-900/20 -z-10" />
+      <div className="" />
+      <div className="" />
 
       {/* Animated gradient orbs */}
-      <div className="fixed top-1/3 -right-48 w-96 h-96 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse -z-10" />
-      <div className="fixed bottom-1/4 -left-24 w-72 h-72 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse -z-10" />
+      <div className="" />
+      <div className="" />
 
       <div id="about" className="relative min-h-screen py-16 flex items-center">
         <div className="max-w-5xl mx-auto px-4 sm:px-8 w-full">
@@ -129,7 +129,7 @@ const AboutPage = () => {
                 onClick={() => handleRedirect(url)}
                 className="group relative"
               >
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-0 group-hover:opacity-50 blur transition duration-300" />
+                <div className="" />
                 <div
                   className="relative w-8 h-8 bg-center bg-cover transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6"
                   style={{ backgroundImage: `url(${icon})` }}

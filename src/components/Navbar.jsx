@@ -53,7 +53,7 @@ export default function Navbar() {
           <div className="relative">
             {/* Gradient background */}
             <div className="absolute inset-0 bg-black bg-opacity-95">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 via-black to-blue-900/20" />
+              <div className="absolute inset-0 bg-gradient-to-r" />
             </div>
 
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 relative">
@@ -93,8 +93,8 @@ export default function Navbar() {
                             className={classNames(
                               "absolute bottom-0 left-0 h-0.5 w-full transform transition-all duration-300",
                               currentSection === item.href
-                                ? "bg-gradient-to-r from-blue-400 to-purple-400 scale-x-100"
-                                : "bg-gradient-to-r from-blue-400 to-purple-400 scale-x-0 group-hover:scale-x-100"
+                                ? "bg-blue-900"
+                                : "bg-blue-100 scale-x-0 group-hover:scale-x-100"
                             )}
                           />
                         </ScrollLink>
@@ -109,7 +109,7 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="relative group overflow-hidden rounded-full"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 transition-transform duration-300 group-hover:scale-105" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-900 transition-transform duration-300 group-hover:scale-105" />
                     <div
                       className="relative px-6 py-2 bg-black bg-opacity-90 text-white font-mono font-bold 
             
@@ -141,7 +141,7 @@ export default function Navbar() {
                   className={classNames(
                     "block rounded-md px-3 py-2 text-lg font-medium transition-colors duration-300",
                     currentSection === item.href
-                      ? "bg-gradient-to-r from-blue-900/40 to-purple-900/40 text-white"
+                      ? "bg-gradient-to-r from-blue-900/40 to-blue-500/10 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   )}
                 >
