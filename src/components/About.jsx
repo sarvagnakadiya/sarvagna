@@ -124,10 +124,10 @@ const AboutPage = () => {
               </span>
               .
               <br />
-              Defi, AI, payments, crypto—yep; Cars, F1—
-              <span className="text-lg">yep</span>-
-              <span className="text-xl">yep</span>-
-              <span className="text-2xl">yep</span>
+              Defi, AI, payments, crypto—yap; Cars, F1—
+              <span className="text-lg">yap</span>-
+              <span className="text-xl">yap</span>-
+              <span className="text-2xl">yap</span>
               <br /> I’m your go-to yap buddy for all things buzzword-worthy.
               <br />
               Awkward on socials, extrovert IRL{" "}
