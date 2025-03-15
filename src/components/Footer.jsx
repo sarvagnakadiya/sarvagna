@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-white p-4 relative">
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
         <p className="text-center lg:text-left mb-4 lg:mb-0">
-          © 2023 Sarvagna Kadiya
+          © 2025 Sarvagna Kadiya
         </p>
         <div className="flex justify-center lg:justify-end">
           <a

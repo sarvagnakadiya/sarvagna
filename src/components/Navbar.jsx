@@ -6,6 +6,7 @@ import { Link as ScrollLink, Events } from "react-scroll";
 const navigation = [
   { name: "About", href: "about", current: false },
   { name: "Projects", href: "projects", current: false },
+  // { name: "Achievements", href: "achievements", current: false },
   { name: "Skills", href: "skills", current: false },
   { name: "Education", href: "education", current: false },
   { name: "Experience", href: "experience", current: false },

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "2023",
+    "title": "First Place - Hackathon",
+    "organization": "Tech Conference 2023",
+    "description": "Won first place for developing an innovative solution that addressed [specific problem]."
+  },
+  {
+    "id": 2,
+    "date": "2022",
+    "title": "Outstanding Research Award",
+    "organization": "University Research Symposium",
+    "description": "Recognized for exceptional research contribution in [specific field]."
+  },
+  {
+    "id": 3,
+    "date": "2021",
+    "title": "Innovation Excellence Award",
+    "organization": "Industry Association",
+    "description": "Received recognition for developing a novel approach to [specific challenge]."
+  }
+] 
