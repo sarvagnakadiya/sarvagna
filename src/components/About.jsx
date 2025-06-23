@@ -59,7 +59,7 @@ const socialLinks = {
   },
   telegram: {
     icon: telegram,
-    url: "https://t.me/squirtle_snap",
+    url: "https://t.me/sarvagnakadiya",
   },
   discord: {
     icon: discord,
